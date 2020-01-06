@@ -14,14 +14,14 @@ valorDespesas();
 calcSaldo();
 
 
-printf("Valor para as receitas: %2.lf\n\nValor para as despesas: %2.lf\n\n Saldo: %2.lf\n", receita, despesas, saldo);
+printf("\nValor para as receitas: %2.lf\n\nValor para as despesas: %2.lf\n\nSaldo: %2.lf\n", receita, despesas, saldo);
 return 0;
 }
 
 /*=========================================================================*/
 
         // Função de pergunta nº1 para definir a variavel receita
-        
+
 valorReceita(void) {
 
 printf("Insira o valor para as receitas: ");
