@@ -20,4 +20,6 @@ double valorAPGcomIVA;
     valorAPGcomIVA = valorAPG + (valorAPG * IVA);
 
     printf("\nValor a pagar (com IVA) = %2.lf\n", valorAPGcomIVA);
+
+    return 0;
 }
